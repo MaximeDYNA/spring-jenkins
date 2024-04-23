@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringJenkinsApplicationTests {
 	
 	public static Logger logger=LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	Logger.info("Test case executing...");
 
 
 	@Test
